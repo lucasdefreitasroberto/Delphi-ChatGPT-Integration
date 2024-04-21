@@ -23,9 +23,6 @@ type
     Label1: TLabel;
     IdHTTP: TIdHTTP;
     idSLL: TIdSSLIOHandlerSocketOpenSSL;
-    RESTRequest: TRESTRequest;
-    RESTResponse: TRESTResponse;
-    RESTClient: TRESTClient;
     procedure btnEnviarClick(Sender: TObject);
   private
     procedure VerificaMensagemVazia;

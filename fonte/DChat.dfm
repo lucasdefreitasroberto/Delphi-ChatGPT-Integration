@@ -89,8 +89,6 @@ object frmPrincipal: TfrmPrincipal
       Font.Style = []
       ParentFont = False
       TabOrder = 0
-      ExplicitTop = 6
-      ExplicitHeight = 91
     end
     object btnEnviar: TBitBtn
       Left = 664
@@ -242,7 +240,6 @@ object frmPrincipal: TfrmPrincipal
       ParentFont = False
       TabOrder = 1
       OnClick = btnEnviarClick
-      ExplicitHeight = 91
     end
   end
   object Panel2: TPanel
@@ -252,7 +249,6 @@ object frmPrincipal: TfrmPrincipal
     Height = 373
     Align = alClient
     TabOrder = 2
-    ExplicitHeight = 347
     object mmoRetorno: TMemo
       Left = 1
       Top = 1
@@ -272,7 +268,6 @@ object frmPrincipal: TfrmPrincipal
       ReadOnly = True
       ScrollBars = ssVertical
       TabOrder = 0
-      ExplicitHeight = 345
     end
   end
   object IdHTTP: TIdHTTP
@@ -304,25 +299,5 @@ object frmPrincipal: TfrmPrincipal
     SSLOptions.VerifyDepth = 0
     Left = 632
     Top = 289
-  end
-  object RESTRequest: TRESTRequest
-    Client = RESTClient
-    Method = rmPOST
-    Params = <
-      item
-        Kind = pkHTTPHEADER
-      end>
-    Response = RESTResponse
-    Left = 64
-    Top = 225
-  end
-  object RESTResponse: TRESTResponse
-    Left = 64
-    Top = 273
-  end
-  object RESTClient: TRESTClient
-    Params = <>
-    Left = 64
-    Top = 177
   end
 end
