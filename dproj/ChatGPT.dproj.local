@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/03/10 04:13:08.000.129,=C:\Users\HAHA\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/03/13 12:29:41.000.569,=C:\Users\HAHA\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/21 01:50:19.000.894,=C:\Users\HAHA\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/21 01:51:34.000.196,C:\Users\HAHA\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\HAHA\Desktop\DelphiChatGPT\fonte\DChat.dfm</Transaction>
+    <Transaction>2024/04/21 01:51:34.000.196,C:\Users\HAHA\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\HAHA\Desktop\DelphiChatGPT\fonte\DChat.pas</Transaction>
+    <Transaction>2024/04/21 01:52:23.000.333,C:\Users\HAHA\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\HAHA\Desktop\DelphiChatGPT\dproj\ChatGPT.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
