@@ -15,7 +15,7 @@ DChat é um aplicativo desenvolvido em Delphi que permite a interação com a AP
 
 - Delphi 10.x ou superior
 - Componente Indy para Delphi
-- OpenSSL para Delphi
+- OpenSSL para Delphi (bibliotecas `libeay32.dll` e `ssleay32.dll`)
 
 ## Configuração
 
@@ -32,7 +32,10 @@ DChat é um aplicativo desenvolvido em Delphi que permite a interação com a AP
       CHAVE= coloque aqui sua secret Key
       ```
 
-3. **Abrir o projeto no Delphi**:
+3. **Baixar e configurar as bibliotecas OpenSSL**:
+    - Baixe as bibliotecas `libeay32.dll` e `ssleay32.dll` e coloque-as no diretório `dproj/Win32/Debug/`.
+
+4. **Abrir o projeto no Delphi**:
     - Abra o Delphi e carregue o arquivo `.dproj` do projeto DChat.
 
 ## Uso
@@ -59,7 +62,7 @@ DChat é um aplicativo desenvolvido em Delphi que permite a interação com a AP
 ## Dependências
 
 - **Indy Components**: Para realizar as requisições HTTP.
-- **OpenSSL**: Necessário para conexões seguras.
+- **OpenSSL**: Necessário para conexões seguras. Certifique-se de que as bibliotecas `libeay32.dll` e `ssleay32.dll` estejam no diretório de execução do projeto.
 
 ## Contribuição
 
@@ -88,9 +91,5 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 Para mais informações, entre em contato com o autor:
 
-- Nome: Lucas de Freitas Roberto
+- Nome: Lucas De Freitas Roberto
 - Email: lucasfreitas.t.2@hotmail.com
-
----
-
-Sinta-se à vontade para ajustar o README conforme necessário para melhor atender ao seu projeto e preferências pessoais.
